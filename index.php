@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +14,7 @@
 </head>
 <body>
 
-<header  class="bg-black shadow-lg" style="height: 80px" >
+<header  class="bg-carbonmons" style="height: 80px" >
     <ul class="list-unstyled text-white">
         
         <li class="text-center fs-1 " >
@@ -70,7 +69,7 @@
             <img src="" alt="">
         </div>
 
-           <ul>
+           <ul class="list-unstyled">
                 <li>Composição(c2h4)</li>
                 <li>raridade</li>
             </ul>
@@ -86,6 +85,14 @@
 
 
 <style>
+    body{
+        overflow-x: hidden;
+    }
+
+    .bg-carbonmons {
+    background-color: #0B132B !important;
+}
+
     .item{
         padding:10px;
         color:white;
@@ -97,12 +104,27 @@
 background-color: rgba(56, 190, 220, 0.28);    }
 
     .card{
+        padding: 5px;
+        gap: 5px;
+        text-align: center;
         border-radius:20px;
         height:350px;
         width:300px;
         margin-left:40px;
         margin-top:-340px;
-        background-color:rgba(55, 128, 64, 0.5);
+        background-color:rgba(51, 153, 63, 1);
+    }
+
+    span{
+        border-radius: 20px;
+        border: 2px solid black;
+        background-color: rgba(106, 255, 123, 1);
+    }
+
+    button{
+        border-radius: 20px;
+        border: 2px solid black;
+        background-color: rgba(141, 30, 30, 1);
     }
 </style>
 
